@@ -6,7 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
-    <pre id="main"></pre >
+    <!-- Desculpa o estilo inline rs -->
+    <div style="display: flex">
+      <pre id="main"></pre >
+      <div class="add_user">
+        Add cliente
+        <div class="dadosCliente">
+          <h5>Dados Cliente</h5>
+          <input type="text" placeholder="Email">
+          <input type="text" placeholder="CPF">
+          <input type="text" placeholder="Valor Conta Poupança">
+        </div>
+        <div class="Dados">
+          <h5>Dados Cliente</h5>
+          <input type="text" placeholder="Valor Conta Corrente">
+        </div>
+        <div class="Movimentações">
+          <h5>Dados Movimentações</h5>
+          <input type="text" placeholder="Operação">
+          <input type="text" placeholder="Custo">
+          <select>
+            <option disabled selected>Selecione...</option>
+            <option>add</option>
+            <option>Remove</option>
+          </select>
+        </div>
+        <button>Add Movimentação</button>
+        <button>Criar</button>
+      </div>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>

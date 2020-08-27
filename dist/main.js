@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mock_mockClientes__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./mock/mockClientes */ \"./src/mock/mockClientes.js\");\n\nvar allclientes = [_mock_mockClientes__WEBPACK_IMPORTED_MODULE_0__[\"cliente1\"], _mock_mockClientes__WEBPACK_IMPORTED_MODULE_0__[\"cliente2\"], _mock_mockClientes__WEBPACK_IMPORTED_MODULE_0__[\"cliente3\"]];\ndocument.querySelector('#main').textContent = JSON.stringify(allclientes, undefined, 2);\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mock_mockClientes__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./mock/mockClientes */ \"./src/mock/mockClientes.js\");\n //insert here all data\n\nvar allclientes = [_mock_mockClientes__WEBPACK_IMPORTED_MODULE_0__[\"cliente1\"], _mock_mockClientes__WEBPACK_IMPORTED_MODULE_0__[\"cliente2\"], _mock_mockClientes__WEBPACK_IMPORTED_MODULE_0__[\"cliente3\"]];\ndocument.querySelector('#main').textContent = JSON.stringify(allclientes, undefined, 2);\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 

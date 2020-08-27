@@ -1,5 +1,12 @@
 export default class Cliente {
-    constructor({ clienteID, srclienteNomecLink, clienteEmail, clienteCPF, contaPoupanca, contaCorrente}) {
+    constructor({ 
+        clienteID, 
+        srclienteNomecLink, 
+        clienteEmail, 
+        clienteCPF, 
+        contaPoupanca, 
+        contaCorrente
+    }) {
         this.clienteID = clienteID;
         this.srclienteNomecLink = srclienteNomecLink;
         this.clienteEmail = clienteEmail;
