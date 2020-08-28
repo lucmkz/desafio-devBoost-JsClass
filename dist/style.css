@@ -1,3 +1,21 @@
 .div_main {
   display: flex;
 }
+
+.div_buttons {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.criar {
+  margin-top: 30px;
+}
+
+.addMovimentacaoButton {
+  margin-top: 30px;
+}
