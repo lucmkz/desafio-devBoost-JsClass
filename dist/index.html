@@ -4,37 +4,44 @@
     <meta charset="utf-8" />
     <title>Webpack App</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel = "stylesheet"
+    type = "text/css"
+    href = "style.css" />
   </head>
   <body>
-    <!-- Desculpa o estilo inline rs -->
-    <div style="display: flex">
-      <pre id="main"></pre >
-      <!-- <div class="add_user">
-        Add cliente
+    <div class="div_main">
+      <div class="pres">
+        <pre id="main"></pre >
+      </div>
+      <div class="add_user">
+        <h2>Add cliente</h2>
         <div class="dadosCliente">
           <h5>Dados Cliente</h5>
-          <input type="text" placeholder="Email">
-          <input type="text" placeholder="CPF">
-          <input type="text" placeholder="Valor Conta Poupança">
+          <input type="text" placeholder="Nome" class="inputNome">
+          <input type="text" placeholder="Email" class="inputEmail">
+          <input type="text" placeholder="CPF" class="inputCPF">
+          <input type="text" placeholder="Valor Conta Poupança" class="valorPupanca">
         </div>
         <div class="Dados">
           <h5>Dados Cliente</h5>
-          <input type="text" placeholder="Valor Conta Corrente">
+          <input type="text" placeholder="Valor Conta Corrente" class="ValorCorrente">
         </div>
-        <div class="Movimentações">
+        <div class="Movimentacoes">
           <h5>Dados Movimentações</h5>
-          <input type="text" placeholder="Operação">
-          <input type="text" placeholder="Custo">
-          <select>
-            <option disabled selected>Selecione...</option>
-            <option>add</option>
-            <option>Remove</option>
-          </select>
+          <div class="movimentacao">
+            <input type="text" placeholder="Operação" class="operacao">
+            <input type="text" placeholder="Custo" class="Custo">
+            <select>
+              <option disabled selected value=''>Selecione...</option>
+              <option value="add">add</option>
+              <option value="Remove">Remove</option>
+            </select>
+          </div>
         </div>
-        <button>Add Movimentação</button>
-        <button>Criar</button>
+        <button class="addMovimentacaoButton">Add Movimentação</button>
+        <button class="criar">Criar</button>
       </div>
-    </div> -->
+    </div>
     <script src="main.js"></script>
   </body>
 </html>

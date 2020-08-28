@@ -1,4 +1,5 @@
 import HandleCliente from './models/HanddlerClients'
+import htmlHandler from './htmlHandler'
 import { 
   IClienteCliente1,
   IContaCorenteCliente1,
@@ -47,6 +48,8 @@ const cliente3 = HandleCliente({
     IMovimentacao3Cliente3
   ]
 })
+
+htmlHandler();
 
 const clientes = [cliente1, cliente2, cliente3]
 
